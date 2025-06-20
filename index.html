@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <h1>Validador de edad</h1>
+
+  <label for="name">Nombre</label>
+  <input type="text" id="name" placeholder="Ingresa tu nombre" autocomplete="off" />
+
+  <label for="age">Edad</label>
+  <input type="text" id="age" placeholder="Ingresa tu edad" autocomplete="off" />
+
+  <button onclick="validarEdad()">Verificar</button>
+
+  <table id="tabla">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Mensaje</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="/sistema_interactivo.js"></script>
+</body>
+</html>
